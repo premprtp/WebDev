@@ -529,9 +529,9 @@ h4 {
   border-top: none;
   border-bottom: 1px solid #444;
   text-align: center;
-  padding: 10rem 3rem;
+  padding: 3rem 3rem;
   padding-bottom: 0px;
-  padding-top: 80px;
+  padding-top: 15px;
 
 }
 
@@ -541,7 +541,7 @@ h4 {
 }
 
 .section--sign-up .section__title {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .section--sign-up .btn {
@@ -551,7 +551,7 @@ h4 {
 
 /* FOOTER */
 .footer {
-  padding: 10rem 3rem;
+  padding: 2rem 0rem;
   background-color: #37383d;
 }
 
@@ -559,7 +559,7 @@ h4 {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 
 .footer__item {
@@ -575,8 +575,8 @@ h4 {
 .footer__logo {
   height: 5rem;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 5rem;
+  margin:10px auto;
+  margin-bottom: 0rem;
 }
 
 .footer__copyright {
@@ -586,7 +586,11 @@ h4 {
 }
 
 .footer__copyright .footer__link {
-  font-size: 1.4rem;
+  font-size: 5rem;
+}
+.foot__link{
+  font-size: 4rem;
+  color: #5ec576;
 }
 
 /* MODAL WINDOW */
@@ -674,4 +678,17 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.fa.fa-heart {
+  color: #eb2c13;
+}
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: #2c3e50;
+  padding: 1.6em;
+}
+.footer > p:nth-child(1) {
+  margin-bottom: 0.6em;
 }

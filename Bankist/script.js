@@ -6,7 +6,7 @@
 
 // Data
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Jonas Schai',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -84,7 +84,7 @@ const account4 = {
 const accounts = [account1, account2, account3, account4];
 
 /* const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Jonas Schai',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -273,6 +273,12 @@ let currentAccount, timer;
 // updateUI(currentAccount);
 // containerApp.style.opacity = 100;
 
+window.addEventListener('load', function () {
+  alert(
+    'there is 4 User\n\tUser :              js,      jd,       stw,       ss\n\tPassword : 1111,   2222,   3333,   4444'
+  );
+});
+
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
@@ -384,7 +390,6 @@ btnClose.addEventListener('click', function (e) {
     const index = accounts.findIndex(
       acc => acc.username === currentAccount.username
     );
-    // .indexOf(23)
 
     // Delete account
     accounts.splice(index, 1);
